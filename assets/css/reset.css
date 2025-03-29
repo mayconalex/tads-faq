@@ -54,6 +54,17 @@ button, input, hr {
 	outline: none;
 }
 
+button {
+	color: inherit;
+}
+
 iframe, img {
 	vertical-align: bottom;
+}
+
+a:hover,
+button:hover,
+input[type="submit"]:hover,
+.clickable:hover {
+  cursor: pointer;
 }
