@@ -74,6 +74,7 @@ main.main {
 }
 
 main.main .topics {
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 6.4rem;
@@ -124,7 +125,3 @@ p strong {
 .hidden {
     display: none;
 }
-
-/* main.main button.question:hover {
-    background-color: white;
-} */
