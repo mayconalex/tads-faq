@@ -1,0 +1,24 @@
+/* [Font] Roboto Condensed (700)  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+/* [Font] Inter (100~900)  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    font-size: 62.5%; /* 1rem = 10px */
+
+    --bg: #F3F5F6;
+    /* TADS brand color */
+    --TADS: #383982;
+    /* DIATINF pallete */
+    --Cobre: #CE701B;
+    --Brasa: #F1881D;
+    --Solar: #FDC616;
+    --Marfim: #F9EBC2;
+    --Nevoa: #A4BCCC;
+    --Abismo: #0C3453;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 1.6rem;
+}
