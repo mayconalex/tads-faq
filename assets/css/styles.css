@@ -30,11 +30,10 @@ body {
     background-color: var(--bg);
     font-family: var(--Inter);
     font-size: 1.6rem;
+    color: var(--Abismo);
 }
 
 .main-container {
-    border: 1px solid red;
-
     width: 118rem;
     display: flex;
     flex-direction: column;
@@ -43,8 +42,6 @@ body {
 
 /* ===== HEADER =============== */
 header.header {
-    /* border: 1px solid blue; */
-
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -60,11 +57,74 @@ header.header h1 {
     color: var(--TADS);
     font-family: var(--Roboto-Condensed);
     font-size: 4.8rem;
+    line-height: 5.76rem;
     text-transform: uppercase;
 }
 
+/* ===== MAIN =============== */
+main.main {
+    width: 100%;
+    display: flex;
+    gap: 4.8rem;
+}
+
+.illustration {
+    width: 567px;
+    height: 567px;
+}
+
+main.main .topics {
+    display: flex;
+    flex-direction: column;
+    gap: 6.4rem;
+}
+
+main.main h2.title {
+    padding-bottom: 4rem;
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 3.84rem;
+}
+
+main.main .accordion {
+    width: 100%;
+}
+
+main.main div.question {
+    border-bottom: .3rem solid white;
+}
+
+main.main button.question {
+    width: 100%;
+    padding: 2.4rem 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 1.6rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2.16rem;
+    text-align: left;
+    background-color: transparent;
+}
+
+main.main .answer {
+    padding-bottom: 2.4rem;
+}
+
+main.main .answer p {
+    line-height: 2.24rem;
+    color: var(--Nevoa);
+}
 
 /* States */
+p strong {
+    font-weight: 700;
+}
+
 .hidden {
     display: none;
 }
+
+/* main.main button.question:hover {
+    background-color: white;
+} */
