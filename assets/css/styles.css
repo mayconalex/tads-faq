@@ -158,9 +158,13 @@ p strong {
         align-items: center;
     }
 
+    header.header nav.nav .patreon {
+        display: none;
+    }
+
     .main-container {
         width: 100%;
-        gap: 4.8rem;
+        gap: 9.6rem;
     }
 
     main.main {
@@ -172,5 +176,11 @@ p strong {
     .illustration {
         width: 34.3rem;
         height: 34.3rem;
+    }
+
+    footer.footer {
+        display: flex !important;
+        justify-content: center;
+        gap: 3.2rem;
     }
 }
