@@ -26,7 +26,7 @@ body {
     min-height: 100vh;
     display: flex;
     justify-content: center;
-    padding: 6.4rem 4.8rem;
+    padding: 6.4rem 10.4rem;
     background-color: var(--bg);
     font-family: var(--Inter);
     font-size: 1.6rem;
@@ -34,7 +34,7 @@ body {
 }
 
 .main-container {
-    width: 118rem;
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 6.4rem;
@@ -114,11 +114,26 @@ main.main button.question {
     background-color: transparent;
 }
 
+main.main .text-question {
+    display: flex;
+    gap: 1.2rem;
+}
+
+main.main .text-question p {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
 main.main .answer {
-    padding-bottom: 2.4rem;
+    padding: 0 0 2.4rem 3.8rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 1.2rem;
 }
 
 main.main .answer p {
+    padding-top: 1.6rem;
     line-height: 2.24rem;
     color: var(--Nevoa);
 }
@@ -129,11 +144,15 @@ p strong {
 }
 
 .hidden {
-    display: none;
+    display: none !important;
 }
 
 /* Breakpoint para dispositivos móveis */
 @media (max-width: 768px) {
+    body {
+        padding: 6.4rem 3.2rem;
+    }
+
     header.header {
         justify-content: center;
         align-items: center;
