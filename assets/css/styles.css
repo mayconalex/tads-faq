@@ -125,3 +125,27 @@ p strong {
 .hidden {
     display: none;
 }
+
+/* Breakpoint para dispositivos móveis */
+@media (max-width: 768px) {
+    header.header {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-container {
+        width: 100%;
+        gap: 4.8rem;
+    }
+
+    main.main {
+        flex-direction: column;
+        align-items: center;
+        gap: 4.8rem;
+    }
+
+    .illustration {
+        width: 34.3rem;
+        height: 34.3rem;
+    }
+}
