@@ -68,3 +68,10 @@ input[type="submit"]:hover,
 .clickable:hover {
   cursor: pointer;
 }
+
+svg {
+    width: initial !important;   /* Mantém a largura original */
+    height: initial !important;  /* Mantém a altura original */
+    max-width: 100%;            /* Evita estouro em containers pequenos */
+    flex-shrink: 0;             /* Evita encolhimento em flexbox */
+}
