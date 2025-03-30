@@ -48,7 +48,13 @@ header.header {
     gap: 6.4rem;
 }
 
-header.header .brands {
+header.header nav.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header.header .patreon {
     display: flex;
     gap: 3.2rem;
 }
